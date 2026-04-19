@@ -1,11 +1,10 @@
 ---
-import heroImg from "../../../assets/wind3.jpg";
 import CtaButton from "../../shared/CtaButton.astro";
 import GradiantText from "../../shared/GradiantText.astro";
 import SubTitle from "../../shared/SubTitle.astro";
 import Title from "../../shared/Title.astro";
 import LazyImage from "../../shared/LazyImage.astro";
-import {HEROSECTION} from "../../../constants/data.ts";
+import {HERO} from "../../../constants/data.ts";
 
 export interface Props {
   className?: string;
@@ -21,26 +20,26 @@ const { className = "" } = Astro.props;
     >
       <div class="justify-center flex flex-col text-center md:ml-auto">
         <Title className="">
-          {HEROSECTION.headline1}
+          {HERO.headline1}
           <GradiantText
-            >{" " + HEROSECTION.headline2}
+            >{" " + HERO.headline2}
             <br />
-            {" " + HEROSECTION.headline3}
-          </GradiantText>{HEROSECTION.headline4}
+            {" " + HERO.headline3}
+          </GradiantText>{HERO.headline4}
         </Title>
         <SubTitle className=" mt-10 leading-9 italic">
-          {HEROSECTION.subheading1}
+          {HERO.subheading1}
           <br />
-          {HEROSECTION.subheading2}<br />
-          {HEROSECTION.subheading3}
+          {HERO.subheading2}<br />
+          {HERO.subheading3}
         </SubTitle>
         <div class="pt-10">
-          <CtaButton>{HEROSECTION.buttonText}</CtaButton>
+          <CtaButton>{HERO.buttonText}</CtaButton>
         </div>
       </div>
       <div class="flex relative pt-10 md:p-0">
         <LazyImage
-          src={heroImg}
+          src={HERO.backgroundImage}
           alt="A picture of a wind turbine."
           className="w-full h-full object-cover"
         />

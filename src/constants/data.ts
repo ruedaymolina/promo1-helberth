@@ -1,4 +1,4 @@
-import { imgGrid, imgSolar,imgWind,img,img1,img2,img3,img4,img5,img6, img7,img8,img9,img11,img12,img13} from "./images";
+import {imgEnvironment, imgInnovation1, imgInnovation2,imgInnovation3,imgHero,imgServices1,imgServices2,imgServices3,imgServices4,imgServices5,imgServices6, imgTestimonial1,imgTestimonial2,imgTestimonial3,imgProjects1,imgProjects2,imgProjects3} from "./images";
 import { svg1,svg2,svg3,svg4 } from "./images";
 
 
@@ -11,8 +11,7 @@ export const NAVITEMS = [
   { href: "#projects", text: "PROYECTOS",},
 ];
 
-
- export const HEROSECTION = {
+ export const HERO = {
   headline1: "Powering",
   headline2: "Tomorrow,",
   headline3: "Sustainably",
@@ -21,9 +20,8 @@ export const NAVITEMS = [
   subheading2: "and be part of a sustainable future",
   subheading3: "for generations to come.",
   buttonText: "Get Powered Today!",
-  backgroundImage: "hero-background-image.jpg",
+  backgroundImage: imgHero,
 };
-
 
 export const SERVICES = {
   title: "Our Sustainable Energy Solutions",
@@ -38,37 +36,37 @@ export const SERVICES = {
       title: "Solar Power Solutions",
       briefDescription:
         "Harness the power of the sun with our state-of-the-art solar panels. Generate clean energy for your home or business and reduce your carbon footprint.",
-      visual: img1,
+      visual: imgServices1,
     },
     {
       title: "Wind Energy Harvesting",
       briefDescription:
         "Embrace the power of the wind. Our wind energy solutions provide a sustainable and efficient way to generate electricity, ensuring a greener future.",
-      visual: img2,
+      visual: imgServices2,
     },
     {
       title: "Hydropower Systems",
       briefDescription:
         "Flow with nature. Our hydropower systems harness the energy of flowing water, delivering reliable and eco-friendly electricity to your doorstep.",
-      visual: img3,
+      visual: imgServices3,
     },
     {
       title: "Energy Storage Solutions",
       briefDescription:
         "Store excess energy efficiently. Our cutting-edge energy storage solutions ensure uninterrupted power supply, even during cloudy days or low-wind periods.",
-      visual: img4,
+      visual: imgServices4,
     },
     {
       title: "Smart Grid Technology",
       briefDescription:
         "Navigate the future with our smart grid technology. Optimize energy distribution, monitor consumption, and contribute to a more sustainable and efficient energy ecosystem.",
-      visual: img5,
+      visual: imgServices5,
     },
     {
       title: "Energy-efficient Lighting",
       briefDescription:
         "Illuminate your space responsibly. Our energy-efficient lighting solutions provide bright, sustainable, and cost-effective illumination for homes and businesses.",
-      visual: img6,
+      visual: imgServices6,
     },
   ],
   callToAction:
@@ -85,19 +83,19 @@ export const INNOVATIONS = {
       title: "1.Smart Grid Integration",
       description:
         "Revolutionize energy distribution with our smart grid technology, optimizing efficiency, minimizing wastage, and adapting to demand fluctuations. Stay connected with innovative solutions for a sustainable, cost-effective energy ecosystem. Embrace the future with our cutting-edge smart grid integration, enhancing reliability and paving the way for efficiency and sustainability.",
-       visual: imgGrid,
+       visual: imgInnovation1,
     },
     {
       title: "1.Advanced Solar Panel Design",
       description:
         "Boost solar efficiency with our state-of-the-art solar panel designs. Our innovative technologies capture more sunlight, ensuring maximum energy production for your home or business. Experience enhanced sustainability and increased energy output with our advanced solar solutions.",
-       visual: imgSolar,
+       visual: imgInnovation2,
     },
     {
       title: "1.Next-gen Wind Turbines",
       description:
         "Transform your wind energy experience with our next-generation wind turbines. Our sleek design, enhanced efficiency, and minimal environmental impact underscore our commitment to innovation. Elevate your sustainable energy journey with cutting-edge wind solutions that prioritize both performance and environmental responsibility.",
-     visual: imgWind,
+     visual: imgInnovation3,
     },
   ],
   visual: "innovations-section-image.jpg",
@@ -118,7 +116,7 @@ export const ENVIRONMENT = {
     "Mitigating Climate Change",
     "Promoting a Cleaner and Healthier Planet",
   ],
-  visual: img,
+  visual: imgEnvironment,
   callToAction: "Join Us in Building a Sustainable Future",
   button: "Learn More",
 };
@@ -130,21 +128,21 @@ export const TESTIMONIALS = {
   testimonials: [
     {
       name: "Emily Johnson",
-      visual: img7,
+      visual: imgTestimonial1,
       occupation: "Homeowner",
       quote:
         "Switching to [Company Name] was the best decision I made. Our home is now powered by clean energy, and I feel great knowing I'm contributing to a healthier planet.",
     },
     {
       name: "Carlos Rodriguez",
-      visual: img8,
+      visual: imgTestimonial2,
       occupation: "Business Owner",
       quote:
         "As a business owner, sustainability is crucial. [Company Name] provided us with a seamless transition to green energy, and we've seen a positive impact on both the environment and our operating costs.",
     },
     {
       name: "Sophie Chen",
-      visual: img9,
+      visual: imgTestimonial3,
       occupation: "Environmental Advocate",
       quote:
         "I'm passionate about the environment, and [Company Name] aligns perfectly with my values. Their commitment to renewable energy and reducing carbon footprint is commendable.",
@@ -165,21 +163,21 @@ export const PROJECTS = {
       description:
         "Empowering a community with sustainable solar energy solutions. Learn how [Company Name] brought clean and affordable electricity to homes, schools, and businesses.",
       location: "Los Angeles, California, USA",
-      visual: img11,
+      visual: imgProjects1,
     },
     {
       title: "Wind Farm Innovation",
       description:
         "Revolutionizing wind energy with our innovative wind farm. Discover how [Company Name] is harnessing the power of the wind to create a greener and more sustainable future.",
       location: "Scottish Highlands, United Kingdom",
-      visual: img12,
+      visual: imgProjects2,
     },
     {
       title: "Hydropower Plant Success",
       description:
         "A journey into our hydropower success story. Explore how [Company Name] transforms the energy of flowing water into a reliable and eco-friendly power source.",
       location: "Amazon Rainforest, South America",
-      visual: img13,
+      visual: imgProjects3,
     },
   ],
   callToAction: "Embark on a Green Energy Journey with [Company Name]",
