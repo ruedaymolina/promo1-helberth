@@ -19,14 +19,14 @@ export const NAVITEMS = [
   subheading1: "Join us in the sgreen energy revolution",
   subheading2: "and be part of a sustainable future",
   subheading3: "for generations to come.",
-  buttonText: "Get Powered Today!",
+  buttonText: "empoderate hoy!",
   backgroundImage: imgHero,
 };
 
 export const SERVICES = {
   title: "Our Sustainable Energy Solutions",
   subheading: {
-    text1_1: "Experience a Revolution in Energy Solutions - ",
+    text1_1: "experimenta una revolucion en soluciones energeticas - ",
     text1_2: "Embrace Innovation, Embrace Sustainability.",
     text2:
       "We're here to Empower Your Life and Spaces with Clean, Renewable Energy, Paving the Way for a Brighter and Greener Tomorrow.",
@@ -122,21 +122,21 @@ export const ENVIRONMENT = {
 };
 
 export const TESTIMONIALS = {
-  title: "What Our Customers Say",
-  subheading1_1: "Hear from Those",
-  subheading1_2: " Who Have Embraced Sustainable Living",
+  title: "Que dicen nuestros clientes",
+  subheading1_1: "Escucha de aquellos",
+  subheading1_2: " quienes llevan una vida sostenible",
   testimonials: [
     {
       name: "Emily Johnson",
       visual: imgTestimonial1,
-      occupation: "Homeowner",
+      occupation: "ama de casa",
       quote:
         "Switching to [Company Name] was the best decision I made. Our home is now powered by clean energy, and I feel great knowing I'm contributing to a healthier planet.",
     },
     {
       name: "Carlos Rodriguez",
       visual: imgTestimonial2,
-      occupation: "Business Owner",
+      occupation: "propietario de negocio",
       quote:
         "As a business owner, sustainability is crucial. [Company Name] provided us with a seamless transition to green energy, and we've seen a positive impact on both the environment and our operating costs.",
     },
