@@ -19,14 +19,14 @@ export const NAVITEMS = [
   subheading1: "Join us in the sgreen energy revolution",
   subheading2: "and be part of a sustainable future",
   subheading3: "for generations to come.",
-  buttonText: "Get Powered Today!",
+  buttonText: "empoderate hoy!",
   backgroundImage: imgHero,
 };
 
 export const SERVICES = {
   title: "Our Sustainable Energy Solutions",
   subheading: {
-    text1_1: "Experience a Revolution in Energy Solutions - ",
+    text1_1: "experimenta una revolucion en soluciones energeticas - ",
     text1_2: "Embrace Innovation, Embrace Sustainability.",
     text2:
       "We're here to Empower Your Life and Spaces with Clean, Renewable Energy, Paving the Way for a Brighter and Greener Tomorrow.",
